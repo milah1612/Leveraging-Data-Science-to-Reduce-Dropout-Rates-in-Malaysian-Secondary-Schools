@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import plotly.express as px 
+
 
 # Load the mock data
 data = pd.read_csv('mock_student_data.csv')
